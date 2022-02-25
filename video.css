@@ -1,0 +1,160 @@
+*{
+    box-sizing: border-box;
+    margin: 0 ;
+    padding: 0;
+    text-decoration: none;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white
+}
+/*HEADER*/
+.header{
+    padding: 30px;
+    text-align: center;
+    background: white;
+    color: #25287d;
+}
+.header h1 {
+    padding: 0 5px;
+    font-size: 50px;
+}
+.header p {
+    font-size: 15px;
+}
+.login{
+float: right;
+display: flex;
+margin-left: 30px;
+}
+
+.cach{
+    display: block;
+    height: 10px;
+    margin: 2px 5px;
+    border-radius: 1px solid rgb(190, 190, 190) ;
+
+}
+/* MENU*/
+/* MENU*/
+.menu{
+    background-color: #25287d ;
+    display: flex;
+}
+.menu a {
+    color: #7085db;
+    display: block;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.menu a:hover{
+    color: white;
+    background-color: #7085db;
+}
+.menu ul a:hover > ul{ 
+    display:block;
+}
+.menu input[type=text] {
+    margin-bottom: 5px;
+    margin-left: 545px;
+    padding: 6px;
+    margin-top: 8px;
+    margin-right: 16px;
+    border: none;
+    font-size: 17px;
+    border-radius: 8px;
+    }
+.menu ul li ul li{
+    list-style: none;
+    text-align: left;
+    padding: 10px ;
+}
+.menu ul li ul{
+    display: none;
+    background-color:#25287d;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    margin-top: 11px;
+}
+.menu ul{
+    display: flex;
+}
+.menu ul li{
+    list-style: none;
+    position: relative;
+}
+.menu ul li ul li:hover{
+    background-color: #7085db;
+}
+
+
+
+.noi-dung{
+    position: absolute;
+    bottom: 10%;
+    z-index: 10;
+    padding: 0 10px 0 10px;
+    width: 90%;
+}
+
+.noi-dung p:hover{
+    color: #7085db;
+}
+
+.noi-dung h3:hover{
+    color: #7085db;
+}
+.Menu-chinh{
+    position: relative;
+    width: 59%;
+}
+.menu-phu{
+    position: relative;
+    width: 75%; 
+    padding: 0 30px 10px 10px;
+}
+.content{
+    position: absolute;
+    top : 68%;
+    z-index: 10;
+    padding: 0 10px 0 10px;
+    width: 90%;
+}
+.content h3{
+    color: white;
+}
+.main-noidung p{
+    width: 107%;
+    border-radius:2px ;
+    margin: 0 5px 5px 5px;
+    padding: 0px;
+}
+.main-noidung p:hover{
+    color: red;
+    background-color: rgb(236, 236, 236);
+}
+.n-container{
+    display: flex;
+}
+.container-nho{
+    padding: 15px 50px;
+    display: flex;
+}
+.content-nho{
+    margin: 0 30px 0 0; width: 20%;
+    margin: 0 20px 0 53px
+}
+.container-nho h4{
+    padding: 5px 5px 5px 0 ;
+    width: 90%
+}
+.img{
+    padding: 10px 100px;
+}
+.content-text{
+    padding:10px;
+}
+.content-text h2{
+    padding: 10px 0;
+}
